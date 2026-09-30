@@ -1,0 +1,99 @@
+.
+├── QUICKSTART.md
+├── checkpoints
+│   └── full_model
+│       └── hf_artifacts
+│           ├── config.json
+│           ├── sentencepiece.bpe.model
+│           ├── special_tokens_map.json
+│           ├── tokenizer.json
+│           └── tokenizer_config.json
+├── config
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   └── config.cpython-311.pyc
+│   └── config.py
+├── fake_news_detection.egg-info
+│   ├── PKG-INFO
+│   ├── SOURCES.txt
+│   ├── dependency_links.txt
+│   ├── requires.txt
+│   └── top_level.txt
+├── requirements.txt
+├── scripts
+│   ├── __pycache__
+│   │   └── train.cpython-311.pyc
+│   ├── analyze_results.py
+│   ├── create_french_dataset.py
+│   ├── evaluate.py
+│   ├── inference.py
+│   ├── prepare_data.py
+│   ├── run_experiments.py
+│   └── train.py
+├── setup.py
+├── setup_project.sh
+├── src
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   └── __init__.cpython-39.pyc
+│   ├── data
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   ├── data_balancing.cpython-311.pyc
+│   │   │   ├── dataset.cpython-311.pyc
+│   │   │   ├── image_loader.cpython-311.pyc
+│   │   │   └── samplers.cpython-311.pyc
+│   │   ├── data_balancing.py
+│   │   ├── dataset.py
+│   │   ├── image_loader.py
+│   │   └── samplers.py
+│   ├── losses
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   └── losses.cpython-311.pyc
+│   │   └── losses.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   ├── __init__.cpython-39.pyc
+│   │   │   ├── classifier.cpython-311.pyc
+│   │   │   ├── domain_adaptation.cpython-311.pyc
+│   │   │   ├── encoders.cpython-311.pyc
+│   │   │   ├── fusion.cpython-311.pyc
+│   │   │   ├── model.cpython-311.pyc
+│   │   │   └── model.cpython-39.pyc
+│   │   ├── classifier.py
+│   │   ├── domain_adaptation.py
+│   │   ├── encoders.py
+│   │   ├── fusion.py
+│   │   └── model.py
+│   ├── training
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   ├── domain_evaluator.cpython-311.pyc
+│   │   │   ├── meta_learning.cpython-311.pyc
+│   │   │   ├── trainer.cpython-311.pyc
+│   │   │   └── uncertainty_weighted_trainer.cpython-311.pyc
+│   │   ├── domain_evaluator.py
+│   │   ├── evaluator.py
+│   │   ├── meta_learning.py
+│   │   ├── trainer.py
+│   │   └── uncertainty_weighted_trainer.py
+│   └── utils
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── __init__.cpython-311.pyc
+│       │   ├── logger.cpython-311.pyc
+│       │   └── metrics.cpython-311.pyc
+│       ├── logger.py
+│       └── metrics.py
+├── structure.txt
+└── train.sh
+
+21 directories, 76 files
